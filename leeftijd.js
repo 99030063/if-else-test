@@ -1,17 +1,14 @@
-var leeftijd=prompt('hoe oud ben je?')
+var leeftijd=prompt('hoe oud ben je?');
 if (leeftijd<21){
     if(leeftijd<18){ 
         if(leeftijd<16){
-            alert('nope')
+            alert('nope');
         }else{
-            alert('eerste verdieping')
+            alert('eerste verdieping');
         }
-
     }else{
-        alert('tweede verdieping')
-
+        alert('tweede verdieping');
     }
-
 }else{
-        alert('VIP verdieping')
+        alert('VIP verdieping');
 }
